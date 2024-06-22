@@ -1,0 +1,101 @@
+{
+  "productName" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "BOLD",
+      "size" : "18"
+    },
+    "position" : {
+      "x" : "0",
+      "y" : "5"
+    }
+  },
+  "productHighlights" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "14"
+    },
+    "position" : {
+      "x" : "150",
+      "y" : "47"
+    }
+  },
+  "productPrice" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "36"
+    },
+    "position" : {
+      "x" : "150",
+      "y" : "90"
+    }
+  },
+  "productPriceNoVAT" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "24"
+    },
+    "position" : {
+      "x" : "150",
+      "y" : "130"
+    }
+  },
+  "productQuantity" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "24"
+    },
+    "position" : {
+      "x" : "171",
+      "y" : "141"
+    }
+  },
+  "incrementButton" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "24"
+    },
+    "position" : {
+      "x" : "221",
+      "y" : "141"
+    }
+  },
+  "decrementButton" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "24"
+    },
+    "position" : {
+      "x" : "150",
+      "y" : "141"
+    }
+  },
+  "basketButton" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "24"
+    },
+    "position" : {
+      "x" : "150",
+      "y" : "166"
+    }
+  },
+  "productDescription" : {
+    "font" : {
+      "family" : "System",
+      "weight" : "REGULAR",
+      "size" : "14"
+    },
+    "position" : {
+      "x" : "0",
+      "y" : "206"
+    }
+  }
+}

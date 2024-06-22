@@ -1,0 +1,45 @@
+#customerButton1 {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+
+    -fx-background-color: #539cd4;
+    -fx-background-radius: 0;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+
+    -fx-font-size: 20;
+}
+
+#customerButton2 {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+
+    -fx-background-color: #539cd4;
+    -fx-background-radius: 0;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+
+    -fx-font-size: 20;
+}
+
+
+#customerButton1:hover {
+    -fx-background-color: #37638f;
+    -fx-effect: innershadow(gaussian, #192d42, 7, 0.8, 0, 0);
+}
+
+#customerButton2:hover {
+    -fx-background-color: #37638f;
+    -fx-effect: innershadow(gaussian, #192d42, 7, 0.8, 0, 0);
+}
+
+#customerTitle {
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+
+    
+}

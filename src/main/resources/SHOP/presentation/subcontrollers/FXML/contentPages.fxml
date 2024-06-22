@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.text.Text?>
+<fx:root id="contentPages" type="javafx.scene.layout.VBox" stylesheets="@../CSS/contentPages.css" prefHeight="8040.0" prefWidth="1904.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/">
+   <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="Infinity" minHeight="1300" minWidth="-Infinity" >
+      <children>
+         <Label fx:id="titleLabel" text="Helpful pages">
+            <font>
+               <Font name="Arial Bold" size="42.0"/>
+            </font>
+         </Label>
+         <Text fx:id="introText" wrappingWidth="1100" text="Welcome to Arne's Tech Blog!
+Explore the latest in electronics and technology with our insightful blog posts.
+From cutting-edge gadgets to industry trends and expert reviews, our blog is your
+go-to destination for staying informed and inspired in the fast-paced world of tech."
+/>
+         <ListView fx:id="listInfoPages" focusTraversable="false" prefWidth="400">
+            <VBox.margin>
+               <Insets bottom="40.0" left="80.0" right="80.0" top="40.0" />
+            </VBox.margin>
+         </ListView>
+      </children>
+   </VBox>
+</fx:root>

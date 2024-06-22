@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PIM.Presentation.UpdateProduct">
+   <children>
+      <Text layoutX="108.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update product">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EAN:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visibility:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Category:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brand:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="updateNameTextField" layoutX="185.0" layoutY="103.0" />
+      <TextField fx:id="updateDescriptionTextField" layoutX="185.0" layoutY="195.0" prefHeight="88.0" prefWidth="160.0" />
+      <TextField fx:id="updateEANTextField" layoutX="185.0" layoutY="153.0" />
+      <TextField fx:id="updatePriceTextField" layoutX="185.0" layoutY="303.0" />
+      <CheckBox fx:id="updateVisibilityCheckBox" layoutX="185.0" layoutY="356.0" mnemonicParsing="false" />
+      <Button layoutX="160.0" layoutY="512.0" mnemonicParsing="false" onAction="#updateProductAction" text="Update">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="25.0" layoutY="558.0" mnemonicParsing="false" onAction="#sceneToMenu" text="Back" />
+      <ChoiceBox fx:id="updateCategoryChoiceBox" layoutX="185.0" layoutY="403.0" prefWidth="159.5" />
+      <ChoiceBox fx:id="updateBrandChoiceBox" layoutX="185.0" layoutY="453.0" prefWidth="159.5" />
+   </children>
+</AnchorPane>

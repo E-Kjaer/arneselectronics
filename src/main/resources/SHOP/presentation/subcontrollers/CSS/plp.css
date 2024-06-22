@@ -1,0 +1,55 @@
+#filterBox {
+    -fx-padding: 0 0 0 30;
+}
+
+#filterTitle {
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+
+    -fx-padding: 5 0 -8 0;
+}
+
+#filterLabel {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+
+    -fx-padding: 8 0 0 0;
+}
+
+#maxPriceLabel {
+    -fx-padding: -4 0 0 0;
+}
+
+#minPriceLabel {
+    -fx-padding: -4 80 0 0;
+}
+
+#slider {
+    -fx-padding: 10 0 15 0;
+}
+
+#filterButton {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+    -fx-font-size: 17;
+
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: #5095ca;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+}
+
+#filterButton:hover {
+    -fx-background-color: #0a5b94;
+    -fx-effect: innershadow(gaussian, #244160, 7, 0.8, 0, 0);
+}
+
+#categoryHeader {
+    -fx-font-size: 46;
+}
+
+#categoryText {
+    -fx-font-size: 26;
+}

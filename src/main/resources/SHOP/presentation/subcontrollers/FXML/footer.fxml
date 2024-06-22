@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root id="footer" stylesheets="@../CSS/footer.css" type="javafx.scene.layout.BorderPane" prefHeight="200.0" prefWidth="1904.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/">
+   <right>
+      <HBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="500.0" spacing="25.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="318.0" spacing="10.0">
+               <children>
+                  <Label id="info" text="Arnesgade 8, 0000 Arneby" />
+                  <Label id="info" text=" +45 00 00 00 00" />
+               </children>
+            </VBox>
+            <ImageView id="locationImg" fitHeight="106.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+         <padding>
+            <Insets right="35.0" />
+         </padding>
+      </HBox>
+   </right>
+   <left>
+      <HBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="500.0" spacing="25.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="linkBox" alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label id="font" fx:id="contactUsText" text="Contact us" />
+                  <Label id="font" fx:id="guide" text="Guides" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </left>
+</fx:root>

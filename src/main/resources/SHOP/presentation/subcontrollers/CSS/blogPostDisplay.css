@@ -1,0 +1,28 @@
+
+
+#titleText{
+    -fx-font-size: 40;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-family: "Times New Roman";
+}
+
+#authorText{
+    -fx-font-size: 25;
+    -fx-alignment: "top-left";
+    -fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+}
+
+#dateText{
+    -fx-font-size: 20;
+    -fx-alignment: "top-left";
+    -fx-font-family: "Times New Roman";
+    -fx-fill: "darkgrey"
+}
+
+#bodyText{
+    -fx-font-size: 22;
+    -fx-alignment: "top-left";
+    -fx-font-family: "Times New Roman";
+}

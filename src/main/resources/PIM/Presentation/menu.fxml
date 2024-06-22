@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PIM.Presentation.Menu">
+   <children>
+      <Button fx:id="but_createproduct" layoutX="13.0" layoutY="85.0" mnemonicParsing="false" onAction="#sceneToProduct" prefHeight="26.0" prefWidth="108.0" text="Create Product" />
+      <Button layoutX="13.0" layoutY="116.0" mnemonicParsing="false" onAction="#sceneToCategory" prefHeight="26.0" prefWidth="107.0" text="Add Category" />
+      <Button layoutX="14.0" layoutY="147.0" mnemonicParsing="false" onAction="#sceneToBrand" prefHeight="26.0" prefWidth="106.0" text="Add Brand" />
+      <Button fx:id="importbut" layoutX="14.0" layoutY="494.0" mnemonicParsing="false" onAction="#openFile" prefHeight="26.0" prefWidth="95.0" text="Import" />
+      <Button fx:id="exportbut" layoutX="14.0" layoutY="539.0" mnemonicParsing="false" onAction="#saveFilteredProductsToFile" prefHeight="26.0" prefWidth="95.0" text="Export" />
+      <Button layoutX="14.0" layoutY="196.0" mnemonicParsing="false" onAction="#sceneToUpdateProduct" prefHeight="26.0" prefWidth="107.0" text="Update Product" />
+      <AnchorPane layoutX="109.0" prefHeight="600.0" prefWidth="677.0">
+         <children>
+            <TableView fx:id="producttable" layoutX="27.0" layoutY="74.0" onMouseClicked="#getSelected" prefHeight="492.0" prefWidth="638.0">
+              <columns>
+                <TableColumn fx:id="col_name" prefWidth="98.39996337890625" text="Product name" />
+                  <TableColumn fx:id="col_ean" prefWidth="72.800048828125" text="EAN" />
+                  <TableColumn fx:id="col_des" text="Description" />
+                  <TableColumn fx:id="col_price" prefWidth="72.800048828125" text="Price" />
+                  <TableColumn fx:id="col_cat" prefWidth="66.4000244140625" text="Category" />
+                  <TableColumn fx:id="col_brand" prefWidth="59.20001220703125" text="Brand" />
+                  <TableColumn fx:id="col_status" prefWidth="89.60003662109375" text="Hidden status" />
+              </columns>
+            </TableView>
+            <TextField fx:id="search_field" layoutX="27.0" layoutY="36.0" prefHeight="26.0" prefWidth="638.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="delbut" layoutX="14.0" layoutY="230.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="26.0" prefWidth="108.0" text="Delete Product" />
+   </children>
+</AnchorPane>

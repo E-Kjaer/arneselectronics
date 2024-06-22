@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PIM.Presentation.Createcategory">
+   <children>
+      <Text layoutX="58.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add category">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Text>
+      <Text layoutX="50.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="50.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <TextField fx:id="category_name" layoutX="170.0" layoutY="135.0" prefHeight="25.0" prefWidth="268.0" promptText="Enter name" />
+      <TextField fx:id="category_description" layoutX="170.0" layoutY="190.0" prefHeight="25.0" prefWidth="268.0" promptText="Enter description" />
+      <CheckBox fx:id="category_checkbox" layoutX="50.0" layoutY="245.0" mnemonicParsing="false" onAction="#addsubcategorymenu" text="Add as subcategory">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </CheckBox>
+      <Text fx:id="category_text" layoutX="50.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Categories">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#sceneToMenu" text="Back" />
+      <Button fx:id="createCategoryButton" layoutX="482.0" layoutY="485.0" mnemonicParsing="false" onAction="#createCategoryButtonClicked" prefHeight="48.0" prefWidth="213.0" text="Create Category" />
+      <ComboBox fx:id="category_subcategory" layoutX="161.0" layoutY="300.0" prefHeight="25.0" prefWidth="231.0" />
+   </children>
+</AnchorPane>

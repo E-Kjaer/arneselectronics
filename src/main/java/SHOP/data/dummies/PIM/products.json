@@ -1,0 +1,218 @@
+[
+  {
+  "id": 1,
+  "name": "25\" Dell Alienware 500Hz Gaming Monitor AW2524HF - 1 ms - Monitor",
+  "price": 6000,
+  "ean": "1234",
+  "hidden_status": false,
+  "brand" : {
+    "name": "Dell"
+  },
+  "category" : {
+    "name": "Computers & Office"
+  },
+  "highlights": [
+    "Resolution: 1920x1080 HD",
+    "Refresh rate: 480Hz",
+    "Paneltype: Fast IPS",
+    "LED-Skærm",
+    "HDMI",
+    "2xDisplayPort"
+  ],
+  "description": "Experience incredibly clear and fast movements with a 24.5-inch IPS screen with a refresh rate of 500 Hz and AMD FreeSync™ Premium.",
+  "stockCount": 12,
+  "image": "src/main/java/SHOP/data/dummies/DAM/images/dell-AW2524HF.jpg"
+  },
+
+  {
+    "id": 2,
+    "name": "27\" ASUS TUF VG27AQML1A - 2560x1440 (QHD) - 240Hz - Fast IPS - HDR10 - Speakers - 1 ms - Monitor",
+    "price": 2500,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "ASUS"
+    },
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "highlights": [
+      "Resolution:: 2560x1440 (QHD)",
+      "Refresh rate: 240Hz",
+      "Responsetime: 1ms (GTG)",
+      "Paneltype: Fast IPS",
+      "FreeSync Premium & G-Sync Compatible",
+      "Speakers"
+    ],
+    "description": "The 27-inch TUF Gaming VG27AQML1A QHD gaming monitor featuring a IPS panel for blistering-fast overclock to 260 Hz gaming.",
+    "stockCount": 18,
+    "image": "src/main/java/SHOP/data/dummies/DAM/images/ASUS-VG27AQML1A.jpg"
+  },
+
+  {
+    "id": 3,
+    "name": "Lenovo Y25g-30 24,5\" gaming monitor",
+    "price": 1499,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "Lenovo"
+    },
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "highlights": [
+      "Resolution: 1920 x 1080 Full HD",
+      "Refresh rate: 360Hz",
+      "Responsetime: 1ms",
+      "Paneltype: Fast IPS",
+      "HDMI, DisplayPort",
+      "Nvidia G-Sync & Nvidia Reflex"
+    ],
+    "description": "The Lenovo Y25g-30 24.5\" gaming monitor boasts an impressive 1080p IPS panel with a blazingly fast 360 Hz refresh rate and 1 ms response time, providing you with the ultimate edge in the battle against your enemies. ",
+    "stockCount": 8,
+    "image": "src/main/java/SHOP/data/dummies/DAM/images/Lenovo-Y25g-30.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Acer Nitro XV275UP3 27\" MiniLED gaming monitor",
+    "price": 1499,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "Acer"
+    },
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "highlights": [
+      "Resolution: 2560x1440 QHD",
+      "Refresh rate: 170Hz",
+      "Responsetime: 2ms",
+      "Paneltype: MiniLED",
+      "HDMI, DisplayPort",
+      "AMD FreeSync Premium"
+    ],
+    "description": "Conquer enemy territories and see them come in good time, thanks to the Acer Nitro XV275UP3 27\" MiniLED gaming monitor, which has a detailed QHD resolution, up to 170Hz refresh rate, 2ms response time and HDMI and DisplayPort connectivity.",
+    "stockCount": 4,
+    "image": "src/main/java/SHOP/data/dummies/DAM/images/acer-nitro-xv275up3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Acer EK271YE 27\" screen",
+    "price": 1199,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "Acer"
+    },
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "highlights": [
+      "Resolution: 1920 x 1080 Full HD",
+      "Refresh rate: 100Hz",
+      "Responsetime: 1ms",
+      "Paneltype: IPS",
+      "HDMI, VGA",
+      "AMD FreeSync"
+    ],
+    "description": "The Acer EK271YE 27\" screen has technology that helps reduce the strain on your eyes, wide viewing angles and a ZeroFrame form factor. Make use of AMD-FreeSync to reduce screen tearing so you get an undisturbed user experience.",
+    "stockCount": 7,
+    "image": "src/main/java/SHOP/data/dummies/DAM/images/acer-ek271ye.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Samsung Essential LS24C310 24\" monitor",
+    "price": 949,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "Samsung"
+    },
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "highlights": [
+      "Resolution: 1920 x 1080 Full HD",
+      "Refresh rate: 75Hz",
+      "Responsetime: 5ms",
+      "Paneltype: IPS",
+      "HDMI"
+    ],
+    "description": "The Samsung Essential LS24C310 24\" computer monitor is the ideal companion when you need to watch movies or prepare documents. Experience smooth scrolling and a good user experience with a FullHD IPS panel, HDMI 1.4 connection and the 75 Hz refresh rate.",
+    "stockCount": 3,
+    "image": "src/main/java/SHOP/data/dummies/DAM/images/samsung-essential-ls24c310.jpg"
+  },
+  {
+    "id": 7,
+    "name": "LG UltraGear 27GP850P 27\" gaming monitor",
+    "price": 2599,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "LG"
+    },
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "highlights": [
+      "Resolution: 2560 x 1440 QHD",
+      "Refresh rate: 165Hz",
+      "Responsetime: 1ms",
+      "Paneltype: Nano IPS",
+      "HDMI, DisplayPort, USB"
+    ],
+    "description": "The LG UltraGear 27GP850P 27\" gaming monitor gives you great visual content in your gaming thanks to the QHD Nano IPS panel with the 98% DCI-P3 color gamut and the HD400 standard. Experience fluid movements with a refresh rate of 165 Hz and 1 ms response time.",
+    "stockCount": 6,
+    "image": "src/main/java/SHOP/data/dummies/DAM/images/LG-UltraGear-27GP850P.jpg"
+  },
+  {
+    "id": 8,
+    "name": "MSI G274QPF 27\" IPS gaming monitor",
+    "price": 1999,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "MSI"
+    },
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "highlights": [
+      "Resolution: 2560 x 1440 WQHD",
+      "Refresh rate: 170Hz",
+      "Responsetime: 1ms",
+      "Paneltype: IPS w/ LED-backlight",
+      "HDMI, DisplayPort"
+    ],
+    "description": "Stay on top of your game with this MSI G274QPF 27\" IPS gaming monitor that gives you an extra-fast 170Hz refresh rate, 1ms response time and sharp QHD 1440p resolution. Nvidia G-Sync compatibility provides a tear-free gaming experience.",
+    "stockCount": 5,
+    "image": "src/main/java/SHOP/data/dummies/DAM/images/msi-g274qpf.jpg"
+  },
+  {
+    "id": 9,
+    "name": "AOC CU34G2X 34\" Curved Gaming Monitor",
+    "price": 2819,
+    "ean": "1234",
+    "hidden_status": false,
+    "brand" : {
+      "name": "AOC"
+    },
+    "highlights": [
+      "Resolution: 2560 x 1440 QHD",
+      "Refresh rate: 170Hz",
+      "Responsetime: 2ms",
+      "Paneltype: MiniLED",
+      "HDMI, DisplayPort",
+      "AMD FreeSync Premium"
+    ],
+    "category" : {
+      "name": "Computers & Office"
+    },
+    "description": "Enjoy your gaming with this ultra-wide AOC CU34G2X 34\" curved gaming monitor with a WQHD 1440p VA panel, 144Hz frame rate and a response time of 1 ms. It is also equipped with AMD FreeSync Premium, which optimizes the cooperation between graphics card and screen.",
+    "stockCount": 3
+  }
+]
+
+

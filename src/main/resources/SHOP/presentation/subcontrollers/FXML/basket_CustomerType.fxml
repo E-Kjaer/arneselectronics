@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.layout.HBox?>
+<fx:root stylesheets="@../CSS/basket_costumertype.css" prefWidth="500" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox alignment="CENTER">
+   <children>
+      <Label id="customerTitle" text="Choose Customertype" style="-fx-padding: 20 0 0 0;"/>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="950.0" spacing="25.0" style="-fx-background-color: #ffffff; -fx-padding: 40 0 0 0;">
+      <Button id="customerButton1" fx:id="customerButton1" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="Private">
+      </Button>
+      <Button id="customerButton2" fx:id="customerButton2" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="Company">
+      </Button>
+      </HBox>
+   </children>
+   </VBox>
+</fx:root>

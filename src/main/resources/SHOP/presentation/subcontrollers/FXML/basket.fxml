@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<fx:root id="basket" stylesheets="@../CSS/basket.css" prefWidth="500" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="title" alignment="CENTER" contentDisplay="CENTER" text="Order Overview" />
+      <VBox fx:id="basketProducts" spacing="10"/>
+      <HBox id="clearBox">
+         <Button id="clearButton" fx:id="clearButton" mnemonicParsing="false" text="Clear basket" />
+      </HBox>
+      <HBox id="priceVAT">
+         <children>
+            <Label id="priceLabel" text="Price w/o VAT: " />
+            <Label id="price" fx:id="priceNoVAT" text="Price" />
+         </children>
+      </HBox>
+      <HBox>
+         <children>
+            <Label id="priceLabel" text="VAT: " />
+            <Label id="price" fx:id="priceVAT" text="Price VAT" />
+         </children>
+      </HBox>
+      <HBox id="totalPriceBox">
+         <children>
+            <Label id="totalPriceLabel" text="Total price in DKK: " />
+            <Label id="totalPrice" fx:id="totalPrice" text="TotalPrice" />
+         </children>
+      </HBox>
+   </children>
+</fx:root>

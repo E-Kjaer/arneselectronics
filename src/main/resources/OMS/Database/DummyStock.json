@@ -1,0 +1,182 @@
+[
+  {
+    "productId": 1,
+    "name": "Smartphone",
+    "unitPrice": 500,
+    "quantity": 10000
+  },
+  {
+    "productId": 2,
+    "name": "Laptop",
+    "unitPrice": 800,
+    "quantity": 10000
+  },
+  {
+    "productId": 3,
+    "name": "Headphones",
+    "unitPrice": 100,
+    "quantity": 10000
+  },
+  {
+    "productId": 4,
+    "name": "Camera",
+    "unitPrice": 600,
+    "quantity": 10000
+  },
+  {
+    "productId": 5,
+    "name": "Desk Chair",
+    "unitPrice": 200,
+    "quantity": 10000
+  },
+  {
+    "productId": 6,
+    "name": "Printer",
+    "unitPrice": 300,
+    "quantity": 10000
+  },
+  {
+    "productId": 7,
+    "name": "Tablet",
+    "unitPrice": 400,
+    "quantity": 10000
+  },
+  {
+    "productId": 8,
+    "name": "Gaming Console",
+    "unitPrice": 700,
+    "quantity": 10000
+  },
+  {
+    "productId": 9,
+    "name": "Smartwatch",
+    "unitPrice": 350,
+    "quantity": 10000
+  },
+  {
+    "productId": 10,
+    "name": "Fitness Tracker",
+    "unitPrice": 150,
+    "quantity": 10000
+  },
+  {
+    "productId": 11,
+    "name": "Bluetooth Speaker",
+    "unitPrice": 80,
+    "quantity": 10000
+  },
+  {
+    "productId": 12,
+    "name": "External Hard Drive",
+    "unitPrice": 120,
+    "quantity": 10000
+  },
+  {
+    "productId": 13,
+    "name": "Wireless Mouse",
+    "unitPrice": 30,
+    "quantity": 10000
+  },
+  {
+    "productId": 14,
+    "name": "USB Flash Drive",
+    "unitPrice": 20,
+    "quantity": 10000
+  },
+  {
+    "productId": 15,
+    "name": "Office Desk",
+    "unitPrice": 250,
+    "quantity": 10000
+  },
+  {
+    "productId": 16,
+    "name": "Monitor",
+    "unitPrice": 300,
+    "quantity": 10000
+  },
+  {
+    "productId": 17,
+    "name": "Wireless Keyboard",
+    "unitPrice": 50,
+    "quantity": 10000
+  },
+  {
+    "productId": 18,
+    "name": "Computer Speakers",
+    "unitPrice": 100,
+    "quantity": 10000
+  },
+  {
+    "productId": 19,
+    "name": "Webcam",
+    "unitPrice": 80,
+    "quantity": 10000
+  },
+  {
+    "productId": 20,
+    "name": "Microphone",
+    "unitPrice": 70,
+    "quantity": 10000
+  },
+  {
+    "productId": 21,
+    "name": "Router",
+    "unitPrice": 120,
+    "quantity": 10000
+  },
+  {
+    "productId": 22,
+    "name": "Modem",
+    "unitPrice": 100,
+    "quantity": 10000
+  },
+  {
+    "productId": 23,
+    "name": "Power Bank",
+    "unitPrice": 50,
+    "quantity": 10000
+  },
+  {
+    "productId": 24,
+    "name": "Car Charger",
+    "unitPrice": 20,
+    "quantity": 10000
+  },
+  {
+    "productId": 25,
+    "name": "Wireless Charger",
+    "unitPrice": 30,
+    "quantity": 10000
+  },
+  {
+    "productId": 26,
+    "name": "Backpack",
+    "unitPrice": 40,
+    "quantity": 10000
+  },
+  {
+    "productId": 27,
+    "name": "Bluetooth Earbuds",
+    "unitPrice": 60,
+    "quantity": 10000
+  },
+  {
+    "productId": 28,
+    "name": "Portable Speaker",
+    "unitPrice": 90,
+    "quantity": 10000
+  },
+  {
+    "productId": 29,
+    "name": "Wireless Headset",
+    "unitPrice": 150,
+    "quantity": 10000
+  },
+  {
+    "productId": 30,
+    "name": "Smart Thermostat",
+    "unitPrice": 200,
+    "quantity": 10000
+  }
+]

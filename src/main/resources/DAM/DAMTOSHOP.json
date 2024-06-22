@@ -1,0 +1,18 @@
+{
+    "images": [
+        {
+            "tags": [
+                "tag1",
+                "tag2"
+            ],
+            "path": "path1"
+        },
+        {
+            "tags": [
+                "tag1",
+                "tag2"
+            ],
+            "path": "path2"
+        }
+    ]
+}

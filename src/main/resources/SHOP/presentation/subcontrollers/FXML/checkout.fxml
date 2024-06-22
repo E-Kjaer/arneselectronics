@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefWidth="600" stylesheets="@../CSS/checkout.css" type="javafx.scene.layout.HBox" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="1300.0">
+         <children>
+            <Accordion prefWidth="952.0">
+              <panes>
+                <TitledPane fx:id="informationPane" animated="false" text="Information">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="280.0" style="-fx-background-color: white;">
+                           <children>
+                              <VBox AnchorPane.bottomAnchor="-7.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox prefHeight="66.0" style="-fx-background-color: ffffff;">
+                                       <children>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="First name">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <TextField fx:id="fNameText" prefHeight="31.0">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="Last name">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField fx:id="lNameText">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="66.0" style="-fx-background-color: ffffff;">
+                                       <children>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="Street name">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <TextField fx:id="streetNameText" prefHeight="31.0">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="House number">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField fx:id="houseNumberText">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="66.0" style="-fx-background-color: ffffff;">
+                                       <children>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="Zip code">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <TextField fx:id="zip" prefHeight="31.0">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="City">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField fx:id="city">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="66.0" style="-fx-background-color: ffffff;">
+                                       <children>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="E-mail">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <TextField fx:id="email" prefHeight="31.0">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                          <VBox prefHeight="200.0">
+                                             <children>
+                                                <Label text="Phone">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField fx:id="phone">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </TextField>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                </TitledPane>
+                 <TitledPane fx:id="shippingPane" animated="false" text="Shipping">
+                    <content>
+                       <VBox alignment="CENTER" minHeight="0.0" minWidth="0.0" prefHeight="180.0" style="-fx-background-color: #ffffff;">
+                          <children>
+                             <Label style="-fx-font-size: 25px;" text="Choose Shipping Option" />
+                             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="950.0" style="-fx-background-color: #ffffff;">
+                                <children>
+                                   <fx:define>
+                                      <ToggleGroup fx:id="shipments" />
+                                   </fx:define>
+                                   <RadioButton fx:id="option1Radio" mnemonicParsing="false" text="BLS (1-3 days delivery)">
+                                      <font>
+                                         <Font size="16.0" />
+                                      </font>
+                                      <HBox.margin>
+                                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                      </HBox.margin>
+                                       <toggleGroup>
+                                          <ToggleGroup fx:id="shipments" />
+                                       </toggleGroup>
+                                   </RadioButton>
+                                   <RadioButton fx:id="option2Radio" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="PostSyd (1-3 days delivery)" toggleGroup="$shipments">
+                                      <font>
+                                         <Font size="16.0" />
+                                      </font>
+                                      <HBox.margin>
+                                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                      </HBox.margin>
+                                   </RadioButton>
+                                </children>
+                             </HBox>
+                          </children>
+                       </VBox>
+                    </content>
+                    <font>
+                       <Font size="30.0" />
+                    </font>
+                 </TitledPane>
+                <TitledPane fx:id="paymentPane" animated="false" text="Payment">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="596.0" style="-fx-background-color: ffffff;">
+                           <children>
+                              <VBox layoutX="101.0" layoutY="21.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="10.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="150.0" style="-fx-background-color: ffffff;">
+                                       <children>
+                                          <ToggleButton fx:id="payment1" mnemonicParsing="false" prefHeight="54.0" prefWidth="177.0" text="Mobilepay">
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="29.0" />
+                                             </font>
+                                          </ToggleButton>
+                                          <ToggleButton fx:id="payment2" mnemonicParsing="false" prefHeight="54.0" prefWidth="177.0" text="Card">
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                             </HBox.margin>
+                                             <font>
+                                                <Font size="29.0" />
+                                             </font>
+                                          </ToggleButton>
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" prefHeight="79.0">
+                                       <children>
+                                          <Button fx:id="confirmButton" text="Confirm">
+                                             <font>
+                                                <Font size="29.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                </TitledPane>
+              </panes>
+            </Accordion>
+         </children>
+      </VBox>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="700.0" />
+   </children>
+</fx:root>

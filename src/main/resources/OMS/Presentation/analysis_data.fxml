@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="700.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OMS.Presentation.AnalysisController">
+
+
+    <top>
+        <VBox style="-fx-background-color: #282828;">
+            <HBox style="-fx-background-color: #282828;">
+                <Region HBox.hgrow="ALWAYS" />
+                <VBox alignment="TOP_CENTER">
+                    <Label text="Sale Revenue">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="revenue" text="0">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                  <padding>
+                     <Insets top="7.0" />
+                  </padding>
+                    </Label>
+                </VBox>
+
+                <Region HBox.hgrow="ALWAYS" />
+                <Line startY="40.0" stroke="#5e5c5c" strokeLineCap="BUTT" strokeWidth="2.0" />
+                <Region HBox.hgrow="ALWAYS" />
+                <VBox alignment="TOP_CENTER">
+                    <Label text="Profit">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="profit" text="0">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                  <padding>
+                     <Insets top="7.0" />
+                  </padding>
+                    </Label>
+                </VBox>
+                <Region HBox.hgrow="ALWAYS" />
+                <Line startY="40.0" stroke="#5e5c5c" strokeLineCap="BUTT" strokeWidth="2.0" />
+                <Region HBox.hgrow="ALWAYS" />
+                <VBox alignment="TOP_CENTER">
+                    <Label text="New Customer">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="customer" text="0">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                  <padding>
+                     <Insets top="7.0" />
+                  </padding>
+                    </Label>
+                </VBox>
+                <Region HBox.hgrow="ALWAYS" />
+                <Line startY="40.0" stroke="#5e5c5c" strokeLineCap="BUTT" strokeWidth="2.0" />
+                <Region HBox.hgrow="ALWAYS" />
+                <VBox alignment="TOP_CENTER">
+                    <Label text="Average Amount">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="amount" text="0">
+                        <font>
+                            <Font name="Arial Bold" size="14.0" />
+                        </font>
+                  <padding>
+                     <Insets top="7.0" />
+                  </padding>
+                    </Label>
+                </VBox>
+                <Region HBox.hgrow="ALWAYS" />
+            <padding>
+               <Insets left="20.0" right="20.0" top="15.0" />
+            </padding>
+            </HBox>
+            <HBox fx:id="gg" alignment="CENTER" VBox.vgrow="ALWAYS">
+                <Region HBox.hgrow="ALWAYS" />
+                <RadioButton fx:id="Revenue_R" layoutX="324.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" selected="true" text="Revenue">
+               <toggleGroup>
+                  <ToggleGroup fx:id="analysis" />
+               </toggleGroup></RadioButton>
+                <Region HBox.hgrow="ALWAYS" />
+                <RadioButton fx:id="AvgAmount_R" layoutX="402.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" text="AvgAmount" toggleGroup="$analysis" />
+                <Region HBox.hgrow="ALWAYS" />
+                <RadioButton fx:id="NewUser_R" layoutX="489.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" text="NewUser" toggleGroup="$analysis" />
+                <Region HBox.hgrow="ALWAYS" />
+            <padding>
+               <Insets top="7.0" />
+            </padding>
+            </HBox>
+        </VBox>
+
+    </top>
+    <center>
+        <AnchorPane style="-fx-background-color: #282828;">
+            <children>
+                <LineChart fx:id="lineChart" legendVisible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <xAxis>
+                        <CategoryAxis label="Days" side="BOTTOM" fx:id="xaxis" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis fx:id="yaxis" label="Amount" side="LEFT" />
+                    </yAxis>
+                </LineChart>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

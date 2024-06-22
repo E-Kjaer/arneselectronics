@@ -1,0 +1,39 @@
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion .titled-pane .title {
+    -fx-background-color: #b9d8f6;
+    -fx-effect: innershadow(gaussian, rgba(155, 184, 211, 0.78), 7, 0.8, 0, 0);
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+}
+
+.accordion {
+    -fx-border-color:#37638f;
+    -fx-border-width: 0.75;
+}
+
+#payment1, #payment2 {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+
+    -fx-background-color: #539cd4;
+    -fx-background-radius: 0;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+}
+
+#payment1:selected, #payment2:selected {
+    -fx-text-fill: #539cd4;
+    -fx-background-color: #fff;
+}
+
+#confirmButton {
+    -fx-background-color: #1c8d23;
+    -fx-text-fill: #ffffff;
+}
+
+#confirmButton:hover {
+    -fx-cursor: hand;
+}

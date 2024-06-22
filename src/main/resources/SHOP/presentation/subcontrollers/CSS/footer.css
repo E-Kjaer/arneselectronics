@@ -1,0 +1,22 @@
+#footer {
+    -fx-background-color: darkblue;
+}
+
+#font {
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 26;
+}
+
+#info {
+    -fx-text-fill: white;
+    -fx-font-size: 22;
+}
+
+#locationImg {
+    -fx-image: url("../../images/Location-pin.png");
+}
+
+#linkBox {
+    -fx-padding: 0 0 0 30;
+}

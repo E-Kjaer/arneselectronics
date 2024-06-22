@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<BorderPane prefHeight="450.0" prefWidth="750.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OMS.Presentation.OrderOverviewController">
+    <top>
+        <VBox fx:id="searchContainer" style="-fx-background-color: #282828; -fx-spacing: 0.7em; -fx-padding: 10;">
+         <HBox alignment="BOTTOM_LEFT" nodeOrientation="RIGHT_TO_LEFT" style="-fx-spacing: 10;">
+            <children>
+                  <TextField fx:id="search_bar" alignment="CENTER_RIGHT" prefHeight="25.0" prefWidth="620.0" promptText="Search order id/price/date/status..." />
+            </children>
+         </HBox>
+            <HBox alignment="BOTTOM_RIGHT">
+                <Line endX="620.0" layoutX="13.0" layoutY="50.0" startY="-3.814697265625E-6" stroke="#4d4d4d" strokeLineCap="ROUND" strokeWidth="2.0" VBox.vgrow="ALWAYS" />
+            </HBox>
+
+            <HBox fx:id="gg" alignment="TOP_RIGHT" style="-fx-spacing: 10;" VBox.vgrow="ALWAYS">
+                <Button layoutX="513.0" layoutY="64.0" mnemonicParsing="false" onAction="#resetBtn" text="Reset date" />
+                <DatePicker fx:id="start_date" layoutX="13.0" layoutY="58.0" prefHeight="25.0" prefWidth="100.0" promptText="Start date" />
+                <DatePicker fx:id="end_date" layoutX="126.0" layoutY="58.0" prefHeight="25.0" prefWidth="100.0" promptText="End date" />
+
+                <RadioButton fx:id="pendingR" layoutX="324.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Pending" />
+                <RadioButton fx:id="processedR" layoutX="402.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" text="Processed" />
+                <RadioButton fx:id="shippedR" layoutX="489.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" text="Shipped" />
+                <RadioButton fx:id="deselectR" layoutX="238.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" selected="true" text="Unfiltered" />
+
+            </HBox>
+        </VBox>
+    </top>
+    <center>
+
+        <TableView fx:id="overview" layoutY="91.0" prefHeight="300.0" prefWidth="550.0">
+            <columns>
+                <TableColumn fx:id="orderNo_col" prefWidth="-1.0" text="Order#" />
+                <TableColumn fx:id="price_col" prefWidth="-1.0" text="Price (dkk)" />
+                <TableColumn fx:id="date_col" minWidth="15.0" prefWidth="-1.0" text="Order date" />
+                <TableColumn fx:id="status_col" prefWidth="-1.0" text="Status" />
+
+            </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+        </TableView>
+
+    </center>
+</BorderPane>

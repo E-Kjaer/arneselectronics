@@ -1,0 +1,60 @@
+#basketProduct {
+    -fx-padding: 4 4 4 4;
+    -fx-background-color: #fff;
+    -fx-effect: dropshadow(gaussian, #192d42, 8, 0.4, 2, 2);
+}
+
+#nameLabel {
+    -fx-font-size: 24;
+    -fx-font-weight: lighter;
+
+    -fx-padding: 0 0 0 15;
+}
+
+#amountButton {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+
+    -fx-background-color: #539cd4;
+    -fx-background-radius: 0;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+
+#amountButton:hover {
+    -fx-background-color: #37638f;
+    -fx-effect: innershadow(gaussian, #192d42, 7, 0.8, 0, 0);
+}
+
+#removeButton {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+
+    -fx-background-color: #539cd4;
+    -fx-background-radius: 0;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+
+    -fx-font-size: 12;
+}
+
+#removeButton:hover {
+    -fx-background-color: #37638f;
+    -fx-effect: innershadow(gaussian, #192d42, 7, 0.8, 0, 0);
+}
+
+#price {
+    -fx-font-size: 20;
+    -fx-font-weight: 700;
+}
+
+#borderPane {
+    -fx-padding: 3 0 0 0;
+}

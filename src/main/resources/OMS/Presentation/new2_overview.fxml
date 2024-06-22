@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+
+<BorderPane prefHeight="400.0" prefWidth="700.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OMS.Presentation.OrderOverviewController">
+   <left>
+       <fx:include source="sideMenu.fxml" />
+   </left>
+    <center>
+        <Pane fx:id="table_Info" layoutX="150.0" layoutY="100.0" prefHeight="300.0" prefWidth="550.0" style="-fx-background-color: #282828;">
+            <TableView fx:id="overview" layoutY="91.0" prefHeight="309.0" prefWidth="570.0">
+                <columns>
+                    <TableColumn fx:id="orderNo_col" prefWidth="135.0" resizable="false" text="Order#" />
+                    <TableColumn fx:id="price_col" prefWidth="120.0" resizable="false" text="Price (dkk)" />
+                    <TableColumn fx:id="date_col" prefWidth="180.0" resizable="false" text="Order date" />
+                    <TableColumn fx:id="status_col" prefWidth="131.0" resizable="false" text="Status" />
+
+                </columns>
+            </TableView>
+            <TextField fx:id="search_bar" layoutX="271.0" layoutY="14.0" prefHeight="25.0" prefWidth="285.0" promptText="Search order id/price/date/status..." />
+
+            <RadioButton fx:id="pendingR" layoutX="324.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Pending" />
+            <RadioButton fx:id="processedR" layoutX="402.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" text="Processed" />
+            <RadioButton fx:id="shippedR" layoutX="489.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" text="Shipped" />
+            <RadioButton fx:id="deselectR" layoutX="238.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" selected="true" text="Unfiltered" />
+
+
+            <DatePicker fx:id="start_date" layoutX="13.0" layoutY="58.0" prefHeight="25.0" prefWidth="100.0" promptText="Start date" />
+            <DatePicker fx:id="end_date" layoutX="126.0" layoutY="58.0" prefHeight="25.0" prefWidth="100.0" promptText="End date" />
+         <Line endX="540.0" layoutX="13.0" layoutY="50.0" startY="-3.814697265625E-6" stroke="#4d4d4d" strokeWidth="2.0" />
+        </Pane>
+    </center>
+</BorderPane>

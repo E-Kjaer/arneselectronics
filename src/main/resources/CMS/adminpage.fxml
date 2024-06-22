@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CMS.AdminPageController">
+   <children>
+      <ImageView fx:id="settingsIm" fitHeight="150.0" fitWidth="200.0" layoutX="760.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@settingsbutton.png" />
+         </image></ImageView>
+      <ImageView fx:id="returnIm" fitHeight="150.0" fitWidth="200.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@returnbutton.png" />
+         </image></ImageView>
+      <ImageView fx:id="createim" fitHeight="121.0" fitWidth="167.0" layoutX="27.0" layoutY="844.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@createbutton.png" />
+         </image></ImageView>
+      <ImageView fx:id="editdeleteim" fitHeight="150.0" fitWidth="200.0" layoutX="626.0" layoutY="703.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@editdeletebutton.png" />
+         </image></ImageView>
+      <ScrollPane id="scrollpane" fx:id="scrollpane" fitToWidth="true" layoutX="144.0" layoutY="231.0" prefHeight="531.0" prefWidth="675.0">
+        <content>
+           <VBox fx:id="contentVbox" fillWidth="true">
+           </VBox>
+        </content>
+      </ScrollPane>
+      <Button id="return_button" fx:id="return_button" layoutX="39.0" layoutY="29.0" mnemonicParsing="false" onAction="#onReturnButtonClick" opacity="0.0" prefHeight="89.0" prefWidth="111.0" text="return button" />
+      <Button id="settings_button" fx:id="settings_button" layoutX="797.0" layoutY="10.0" mnemonicParsing="false" onAction="#onSettingsButtonClick" opacity="0.0" prefHeight="121.0" prefWidth="121.0" text="settings button" />
+      <Button id="create_button" fx:id="create_button" layoutX="57.0" layoutY="867.0" mnemonicParsing="false" onAction="#onCreateButtonClick" opacity="0.0" prefHeight="77.0" prefWidth="97.0" text="create button" />
+      <Button fx:id="editButton" layoutX="643.0" layoutY="762.0" mnemonicParsing="false" onAction="#onEditButtonClick" opacity="0.0" prefHeight="25.0" prefWidth="88.0" text="edit button" />
+      <Button fx:id="delete_button" layoutX="731.0" layoutY="762.0" mnemonicParsing="false" onAction="#onDeleteButtonClick" opacity="0.0" prefHeight="25.0" prefWidth="88.0" text="delete button" />
+      <Label layoutX="319.0" layoutY="128.0" text="Administrator Page">
+         <font>
+            <Font name="Times New Roman Bold" size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="843.0" text="Create Content Page">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="97.0" layoutX="544.0" layoutY="754.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#onRenameButtonClick">
+         <image>
+            <Image url="@renamebutton.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

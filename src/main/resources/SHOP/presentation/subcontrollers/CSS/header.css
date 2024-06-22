@@ -1,0 +1,82 @@
+#header {
+    -fx-background-color: #89cfe6;
+}
+
+#logo {
+    -fx-cursor: hand;
+    /*-fx-image: url("../../images/arne.png");*/
+}
+
+#headerLabel {
+    -fx-cursor: hand;
+    -fx-font-size: 28;
+}
+
+#searchField {
+    -fx-font-size: 24;
+}
+
+#searchButton {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+    -fx-font-size: 22;
+
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: #5095ca;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+}
+
+#searchButton:hover {
+    -fx-background-color: #0a5b94;
+    -fx-effect: innershadow(gaussian, #244160, 7, 0.8, 0, 0);
+}
+
+#basket {
+    -fx-cursor: hand;
+    -fx-image: url("../../images/shopping-cart-button.png");
+}
+
+#helpLogo {
+    -fx-cursor: hand;
+    -fx-image: url("../../images/help-button.png");
+}
+
+#contactUs {
+    -fx-cursor: hand;
+    -fx-font-size: 24;
+    -fx-padding: 0 0 0 -125;
+}
+
+#catButton {
+    -fx-cursor: hand;
+
+    -fx-text-fill: #fff;
+
+    -fx-background-color: #539cd4;
+    -fx-background-radius: 0;
+
+    -fx-border-color: #37638f;
+    -fx-border-width: 0.75;
+
+    -fx-font-size: 32;
+}
+
+#catButton:hover {
+    -fx-background-color: #37638f;
+    -fx-effect: innershadow(gaussian, #192d42, 7, 0.8, 0, 0);
+}
+
+#circleAmount {
+    -fx-fill: #ef0707;
+    -fx-stroke-width: 1;
+    -fx-stroke: #ffffff;
+}
+
+#amount {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 17;
+    -fx-font-weight: bold;
+}

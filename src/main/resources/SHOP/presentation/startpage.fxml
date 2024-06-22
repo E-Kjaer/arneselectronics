@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" vbarPolicy="NEVER" hbarPolicy="NEVER" xmlns:fx="http://javafx.com/fxml/1">
+    <content>
+        <BorderPane prefHeight="1080.0" prefWidth="1920.0" fx:id="borderPane" style="-fx-background-color: ffffff;"/>
+    </content>
+</ScrollPane>

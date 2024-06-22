@@ -1,0 +1,33 @@
+[ {
+  "id" : 1,
+  "name" : "Black TV",
+  "description" : "Black TV Description",
+  "ean" : "1234",
+  "price" : 2000.0,
+  "hidden_status" : true,
+  "category" : {
+    "id" : 1,
+    "name" : "TV",
+    "description" : "TV Description"
+  },
+  "brand" : {
+    "id" : 1,
+    "name" : "Samsung"
+  }
+}, {
+  "id" : 2,
+  "name" : "Silver TV",
+  "description" : "Silver TV Description",
+  "ean" : "1235",
+  "price" : 3000.0,
+  "hidden_status" : false,
+  "category" : {
+    "id" : 1,
+    "name" : "TV",
+    "description" : "TV Description"
+  },
+  "brand" : {
+    "id" : 1,
+    "name" : "Samsung"
+  }
+} ]

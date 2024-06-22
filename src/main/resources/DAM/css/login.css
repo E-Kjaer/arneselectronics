@@ -1,0 +1,39 @@
+/* Apply dark background color to the entire login page */
+.anchor-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+/* Style the text fields */
+.text-field {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+    -fx-background-radius: 5;
+    -fx-padding: 8px 10px;
+}
+
+/* Style the password field */
+.password-field {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: grey;
+    -fx-background-radius: 5;
+    -fx-padding: 8px 10px;
+}
+
+.button {
+    -fx-background-color: #02376f; /* Dark blue */
+    -fx-text-fill: white;
+    -fx-font-size: 14px; /* Adjust the font size */
+    -fx-background-radius: 5;
+    -fx-padding: 6px 10px; /* Adjust the padding */
+    -fx-min-width: 80px; /* Set the minimum width */
+    -fx-min-height: 30px; /* Set the minimum height */
+    -fx-max-width: 80px; /* Set the maximum width */
+    -fx-max-height: 30px; /* Set the maximum height */
+}
+
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}

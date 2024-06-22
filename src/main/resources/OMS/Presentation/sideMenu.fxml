@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="130.0" style="-fx-background-color: #222222;" stylesheets="@style.css" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OMS.Presentation.SideMenuController">
+    <top>
+        <VBox alignment="CENTER" prefHeight="100.0" prefWidth="130.0" style="-fx-spacing: 3;">
+            <Label fx:id="person_logo" alignment="CENTER" prefHeight="54.0" prefWidth="54.0" text="AA">a</Label>
+            <Label fx:id="person" alignment="CENTER" prefHeight="17.0" prefWidth="110.0" text="Admin Admin">admin</Label>
+            <Line endX="115.0" endY="7.62939453125E-6" startY="7.62939453125E-6" stroke="#3d3d3d" strokeWidth="2.0" />
+        </VBox>
+    </top>
+    <center>
+        <VBox alignment="TOP_CENTER" prefWidth="130.0" style="-fx-spacing: 6;">
+            <Button fx:id="analysis" onAction="#changeScene" prefWidth="110.0" text="Analysis">Overview</Button>
+            <Button fx:id="order" onAction="#changeScene" prefWidth="110.0">Orders</Button>
+            <Button fx:id="productOverview" onAction="#changeScene" prefWidth="110.0">Product Overview</Button>
+            <Button fx:id="saleReport" onAction="#changeScene" prefWidth="110.0">Sale Report</Button>
+            <Button fx:id="updateSts" onAction="#updateSts" prefWidth="110.0">Update Status</Button>
+        </VBox>
+    </center>
+    <bottom>
+        <VBox alignment="CENTER" prefHeight="40.0" prefWidth="130.0">
+            <Button fx:id="login"  onAction="#changeScene" prefWidth="110.0" text="Logout">Logout</Button>
+        </VBox>
+    </bottom>
+</BorderPane>

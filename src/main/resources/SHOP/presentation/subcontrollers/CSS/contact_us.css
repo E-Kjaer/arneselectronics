@@ -1,0 +1,29 @@
+#coloring {
+    -fx-background-color: rgba(180, 179, 179, 0.33);
+    -fx-background-radius: 3;
+
+    -fx-border-color: rgba(180, 179, 179, 0.33);
+    -fx-max-width: 400;
+    -fx-spacing: 20;
+    -fx-padding: 20 0 20 0;
+}
+
+#subtitle {
+    -fx-font-size: 25;
+    -fx-padding: 10 0 10 0;
+}
+
+#textFA {
+    -fx-font-size: 18;
+}
+
+#submitButton {
+    -fx-background-color: #1c8d23;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18;
+
+}
+
+#submitButton:hover {
+    -fx-cursor: hand;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<fx:root type="AnchorPane" id="root" stylesheets="@../CSS/PLP_Product.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" minWidth="170" maxHeight="200">
+   <children>
+      <ImageView fx:id="productImage" fitHeight="100.0" fitWidth="170.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="productName" alignment="CENTER" contentDisplay="CENTER" text="Product name" textAlignment="CENTER" maxWidth="170">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text id="price" fx:id="productPrice" strokeType="OUTSIDE" strokeWidth="0.0" text="Pris,-" wrappingWidth="150">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</fx:root>

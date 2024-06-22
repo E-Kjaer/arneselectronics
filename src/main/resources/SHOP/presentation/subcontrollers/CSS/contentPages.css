@@ -1,0 +1,21 @@
+#listInfoPages {
+    -fx-font-size: 30;
+
+}
+.list-cell{
+
+}
+/* Set background color for even rows */
+.list-view .list-cell:even {
+    -fx-background-color: #f1f1f1;
+}
+
+/* Set background color for odd rows */
+.list-view .list-cell:odd {
+    -fx-background-color: rgb(185, 216, 246); /* You can adjust this color if needed */
+}
+
+#introText{
+    -fx-font-size: 24;
+
+}

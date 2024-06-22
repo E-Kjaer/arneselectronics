@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<fx:root stylesheets="@../CSS/PDP.css" type="AnchorPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" maxWidth="1200" maxHeight="1200">
+   <children>
+      <Label fx:id="productName" alignment="CENTER" contentDisplay="CENTER" layoutY="5.0" text="Product name" textAlignment="CENTER" maxWidth="600"/>
+      <ImageView fx:id="productImage" fitHeight="250.0" fitWidth="250.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/toolbox.png" />
+         </image>
+      </ImageView>
+      <VBox fx:id="priceBox" prefHeight="75" prefWidth="200">
+            <Text fx:id="productPrice" layoutX="150.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pris,-" />
+            <Text fx:id="productPriceNoVAT" layoutX="149.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pris,-" />
+      </VBox>
+      <VBox fx:id="addToBasketBox" prefWidth="100" prefHeight="100" spacing="5">
+         <HBox>
+            <Button id="amountButton" fx:id="decrementButton" prefWidth="25" mnemonicParsing="false" text="-" />
+            <TextField fx:id="productQuantity" prefWidth="50" text="1" />
+            <Button id="amountButton" fx:id="incrementButton" prefWidth="25" mnemonicParsing="false" text="+" />
+         </HBox>
+         <Button id="basketButton" fx:id="basketButton" prefWidth="100" mnemonicParsing="false" style="-fx-cursor: hand;" text="Add to basket" />
+         <Button id="shareButton" fx:id="shareButton" prefWidth="100" mnemonicParsing="false" style="-fx-cursor: hand;" text="Share" />
+      </VBox>
+      <Text fx:id="productDescription" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="600" />
+   </children>
+</fx:root>

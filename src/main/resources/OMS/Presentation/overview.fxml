@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OMS.Presentation.OrderOverviewController">
+   <children>
+      <TextField fx:id="search_bar" layoutX="151.0" layoutY="83.0" prefHeight="25.0" prefWidth="426.0" promptText="Search order id/price/date/status..." />
+      <Label layoutX="241.0" layoutY="27.0" text="Overview">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="293.0" text="Start date" />
+      <Label layoutX="21.0" layoutY="335.0" text="End date" />
+      <DatePicker fx:id="start_date" layoutX="19.0" layoutY="310.0" prefHeight="25.0" prefWidth="119.0" />
+      <DatePicker fx:id="end_date" layoutX="19.0" layoutY="352.0" prefHeight="25.0" prefWidth="119.0" />
+      <Label layoutX="19.0" layoutY="133.0" text="Status" />
+      <TableView fx:id="overview" layoutX="151.0" layoutY="125.0" prefHeight="252.0" prefWidth="426.0">
+         <columns>
+            <TableColumn fx:id="orderNo_col" prefWidth="97.33334350585938" text="Order#" />
+            <TableColumn fx:id="price_col" prefWidth="94.0" text="Price (dkk)" />
+            <TableColumn fx:id="date_col" prefWidth="145.3333740234375" text="Order date" />
+            <TableColumn fx:id="status_col" prefWidth="88.0" text="Status" />
+         </columns></TableView>
+      <RadioButton fx:id="pendingR" layoutX="18.0" layoutY="158.0" mnemonicParsing="false" text="Pending" />
+      <RadioButton fx:id="processedR" layoutX="18.0" layoutY="182.0" mnemonicParsing="false" text="Processed" />
+      <RadioButton fx:id="shippedR" layoutX="18.0" layoutY="208.0" mnemonicParsing="false" text="Shipped" />
+      <RadioButton fx:id="deselectR" layoutX="18.0" layoutY="234.0" mnemonicParsing="false" text="No status filter" />
+      <Button fx:id="productOverview" layoutX="18.0" layoutY="95.0" mnemonicParsing="false" onAction="#productPressed" text="Filter Products" />
+      <Button fx:id="resetBtn" layoutX="18.0" layoutY="268.0" mnemonicParsing="false" onAction="#resetBtn" text="Reset date" />
+      <Button fx:id="updateStatus" layoutX="18.0" layoutY="15.0" mnemonicParsing="false" onAction="#updateStatus" text="Update Status" />
+   </children>
+</Pane>

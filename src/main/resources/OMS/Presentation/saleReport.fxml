@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="450.0" prefWidth="750.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OMS.Presentation.SalereportController">
+    <left>
+        <fx:include source="sideMenu.fxml" />
+    </left>
+    <center>
+        <VBox alignment="CENTER" spacing="10" style="-fx-background-color: #282828;">
+            <HBox alignment="CENTER" spacing="10">
+                <ComboBox fx:id="monthPicker" />
+                <ComboBox fx:id="yearPicker" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="10">
+                <Button onAction="#generatePdf" text="Download Sale report" />
+            </HBox>
+            <Label fx:id="salereport_loading" text="Timestamp will be displayed here" visible="false" />
+        </VBox>
+    </center>
+</BorderPane>
